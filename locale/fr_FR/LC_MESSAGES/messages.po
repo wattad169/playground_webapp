@@ -1,0 +1,665 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: info@phpgang.com <info@phpgang.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.6\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: fr_FR\n"
+
+# word 1
+msgid "Admin Dashboard"
+msgstr "Administrateur Dashboard"
+
+# word 3
+msgid "Store Finder"
+msgstr "Store Finder"
+
+# word 5
+msgid "Admin"
+msgstr "Admin"
+
+# word 5
+msgid "You have"
+msgstr "Tu as"
+
+# word 6
+msgid "New Ratting"
+msgstr "Nouveau Ratting"
+
+# word 7
+msgid "See All Ratting"
+msgstr "Voir tous Ratting"
+
+# word 8
+msgid "New Review"
+msgstr "New Review"
+
+# word 9
+msgid "See All Review"
+msgstr "Voir tout Commentaire"
+
+# word 10
+msgid "New Mobile Users"
+msgstr "Nouveaux utilisateurs mobiles"
+
+# word 11
+msgid "See all Users"
+msgstr "Voir tous les utilisateurs"
+
+# word 13
+msgid "Log Out"
+msgstr "Se déconnecter"
+
+# word 14
+msgid "Home"
+msgstr "Accueil"
+
+# word 16
+msgid "Stores"
+msgstr "magasins"
+
+# word 17
+msgid "News"
+msgstr "Des nouvelles"
+
+# word 18
+msgid "Users Review"
+msgstr "Appréciation des utilisateurs"
+
+# word 19
+msgid "Users Ratting"
+msgstr "Note des utilisateurs"
+
+# word 21
+msgid "Users"
+msgstr "Utilisateurs"
+
+# word 22
+msgid "Admin Theme"
+msgstr "Administrateur Thème"
+
+# word 23
+msgid "Web Service"
+msgstr "Service Web"
+
+# word 24
+msgid "Support"
+msgstr "Soutien"
+
+# word 27
+msgid "Dashboard"
+msgstr "Tableau de bord"
+
+# word 28
+msgid "Total Stores"
+msgstr "Nombre de magasins"
+
+# word 29
+msgid "Stores Category"
+msgstr "magasins Catégorie"
+
+# word 30
+msgid "Total Users"
+msgstr "Nombre d'utilisateurs"
+
+# word 31
+msgid "Total Reviews"
+msgstr "Nombre de Commentaires"
+
+# word 32
+msgid "Featured Stores"
+msgstr "Magasins en vedette"
+
+# word 34
+msgid "Store Name"
+msgstr "Nom de magasin"
+
+# word 35
+msgid "Address"
+msgstr "Adresse"
+
+# word 36
+msgid "Date Created"
+msgstr "date créée"
+
+# word 37
+msgid "Store Finder Admin | Add Images"
+msgstr "Trouver un magasin admin | Ajouter des images"
+
+# word 38
+msgid "Add Stores Images"
+msgstr "Ajouter Magasins Images"
+
+# word 39
+msgid "Store"
+msgstr "boutique"
+
+# word 40
+msgid "Store Images"
+msgstr "stocker des images"
+
+# word 41
+msgid "Add Stores images"
+msgstr "Ajouter des images Magasins"
+
+# word 42
+msgid "Add Stores Multiple images"
+msgstr "Ajouter Magasins images multiples"
+
+# word 43
+msgid "Add Images"
+msgstr "Ajouter des images"
+
+# word 44
+msgid "Stores Selected Images"
+msgstr "Images magasins sélectionnés"
+
+# word 45
+msgid "Store Finder Admin | Add Stores"
+msgstr "Trouver un magasin admin | Ajouter Magasins"
+
+# word 46
+msgid "Add New Stores"
+msgstr "Ajouter de nouveaux magasins"
+
+# word 47
+msgid "Stores Detail"
+msgstr "magasins Détail"
+
+# word 48
+msgid "Stores Name"
+msgstr "Nom magasins"
+
+# word 49
+msgid "Stores Address"
+msgstr "magasins Adresse"
+
+# word 50
+msgid "Email"
+msgstr "Email"
+
+# word 51
+msgid "Phone No"
+msgstr "Pas de téléphone"
+
+# word 51
+msgid "SMS No"
+msgstr "Pas de SMS"
+
+# word 52
+msgid "Website"
+msgstr "Site Internet"
+
+# word 53
+msgid "Select if Store Will be featured "
+msgstr "Sélectionnez si magasin sera en vedette"
+
+# word 54
+msgid "Store Featured"
+msgstr "magasin Featured"
+
+# word 55
+msgid "Store Not Featured"
+msgstr "Stocke pas en vedette"
+
+# word 56
+msgid "Select Category"
+msgstr "Sélectionnez une catégorie"
+
+# word 57
+msgid "Stores Descriptions"
+msgstr "Magasins Descriptions"
+
+# word 58
+msgid "Stores Location Detail"
+msgstr "Magasins Lieu Détail"
+
+# word 59
+msgid "Latitude"
+msgstr "Latitude"
+
+# word 60
+msgid "Longitude"
+msgstr "Longitude"
+
+# word 61
+msgid "Select Thumbnail image"
+msgstr "Sélectionnez Thumbnail image"
+
+# word 62
+msgid "Add Stores"
+msgstr "Ajouter Magasins"
+
+# word 63
+msgid "Store Finder Admin | Change Admin Theme"
+msgstr "Trouver un magasin admin | Changement Administrateur Thème"
+
+# word 64
+msgid "Change Admin Theme"
+msgstr "Changement Administrateur Thème"
+
+# word 65
+msgid "Themes"
+msgstr "thèmes"
+
+# word 66
+msgid "Store Finder Admin | Admin User"
+msgstr "Trouver un magasin admin | utilisateur Admin"
+
+# word 67
+msgid "Admin User Access"
+msgstr "Administrateur accès de l'utilisateur"
+
+# word 69
+msgid "Admin User"
+msgstr "utilisateur Admin"
+
+# word 72
+msgid "Image"
+msgstr "image"
+
+# word 74
+msgid "Access Role"
+msgstr "Accès Rôle"
+
+# word 75
+msgid "Admin Access"
+msgstr "Accès administrateur"
+
+# word 78
+msgid "Password"
+msgstr "Mot de passe"
+
+# word 80
+msgid "Full Name"
+msgstr "Nom complet"
+
+# word 81
+msgid "Select Profile Image"
+msgstr "Sélectionnez Image de profil"
+
+# word 85
+msgid "This Email Id Is Already Exists"
+msgstr "Cet e-mail id est existe déjà"
+
+# word 87
+msgid "Are You Sure You Want To Delete"
+msgstr "Êtes vous sur de vouloir supprimer"
+
+# word 88
+msgid "Admin Delete Successfuly"
+msgstr "Administrateur Supprimé avec succès"
+
+# word 89
+msgid "Admin User Add Successfully"
+msgstr "Administrateur Utilisateur ajouté avec succès"
+
+# word 90
+msgid "Please Try Agains Admin Not Add"
+msgstr "S'il vous plaît essayez de nouveau ADMIN Non Ajouter"
+
+# word 91
+msgid "Store Finder Admin | Category"
+msgstr "Trouver un magasin admin | Catégorie"
+
+# word 92
+msgid "Store Category"
+msgstr "Catégorie de magasin"
+
+# word 93
+msgid "Category"
+msgstr "Catégorie"
+
+# word 96
+msgid "Action"
+msgstr "action"
+
+# word 99
+msgid "Select Image"
+msgstr "Sélectionner l'image"
+
+# word 100
+msgid "Close"
+msgstr "Près"
+
+# word 101
+msgid "Save changes"
+msgstr "Sauvegarder les changements"
+
+# word 102
+msgid "Category Delete Successfully"
+msgstr "Catégorie Delete succès"
+
+# word 103
+msgid "Category Add Successfully"
+msgstr "Catégorie Ajouter succès"
+
+# word 104
+msgid "Category Update Successfully"
+msgstr "Catégorie jour avec succès"
+
+# word 105
+msgid "Edit Category"
+msgstr "Modifier une catégorie"
+
+# word 106
+msgid "Category Name"
+msgstr "Nom de catégorie"
+
+# word 107
+msgid "Change Image"
+msgstr "Changer l'image"
+
+# word 108
+msgid "Edit"
+msgstr "modifier"
+
+# word 109
+msgid "Delete"
+msgstr "Effacer"
+
+# word 110
+msgid "Store Finder Admin | Change Password"
+msgstr "Trouver un magasin admin | Changer le mot de passe"
+
+# word 111
+msgid "Change Password"
+msgstr "Changer le mot de passe"
+
+# word 112
+msgid "Admin Change Password"
+msgstr "Administrateur Changer mot de passe"
+
+# word 113
+msgid "Old Password"
+msgstr "ancien mot de passe"
+
+# word 114
+msgid "New Password"
+msgstr "nouveau mot de passe"
+
+# word 115
+msgid "Confirm Password"
+msgstr "Confirmez le mot de passe"
+
+# word 116
+msgid "Confirm Password Not Match"
+msgstr "Confirmer mot de passe ne correspondent pas"
+
+# word 117
+msgid "Wrong Old Password"
+msgstr "Ancien mot de passe incorrect"
+
+# word 118
+msgid "Password Change Successfully"
+msgstr "Le mot de passe a été changé avec succès"
+
+# word 119
+msgid "Store Finder Admin | Edit Stores"
+msgstr "Trouver un magasin admin | Modifier Magasins"
+
+# word 121
+msgid "Edit Store Detail"
+msgstr "Modifier magasin Détail"
+
+# word 122
+msgid "Edit Stores Detail"
+msgstr "Modifier Magasins Détail"
+
+# word 123
+msgid "Edit Stores Location Detail"
+msgstr "Modifier Magasins Lieu Détail"
+
+# word 124
+msgid "Update Stores Detail"
+msgstr "Mettez à jour les magasins de détail"
+
+# word 126
+msgid "Please Try Agains Network Connections Problems"
+msgstr "S'il vous plaît essayez de nouveau Connexions réseau Problèmes"
+
+# word 127
+msgid "Store Update Successfully"
+msgstr "Magasin Mise à jour avec succès"
+
+# word 128
+msgid "Name"
+msgstr "prénom"
+
+# word 129
+msgid "Add New Category"
+msgstr "Ajouter une nouvelle catégorie"
+
+# word 130
+msgid "Add New Admin User"
+msgstr "Ajouter un nouveau utilisateur Admin"
+
+# word 131
+msgid "Allow"
+msgstr "Permettre"
+
+# word 130
+msgid "Deny"
+msgstr "Nier"
+
+# word 132
+msgid "Store Finder Admin | Mobile Users"
+msgstr "Trouver un magasin admin | Les utilisateurs mobiles"
+
+# word 133
+msgid "Mobile Users"
+msgstr "Les utilisateurs mobiles"
+
+# word 134
+msgid "Mobile User list"
+msgstr "Liste de l'utilisateur mobile"
+
+# word 135
+msgid "Facebook id"
+msgstr "Facebook ID"
+
+# word 136
+msgid "Username"
+msgstr "le nom d'utilisateur"
+
+# word 137
+msgid "User Access"
+msgstr "Accès utilisateur"
+
+# word 138
+msgid "Store Finder Admin | News"
+msgstr "Trouver un magasin admin | Des nouvelles"
+
+# word 139
+msgid "Add News"
+msgstr "Ajouter Nouvelles"
+
+# word 140
+msgid "Title"
+msgstr "Titre"
+
+# word 141
+msgid "News Title"
+msgstr "nouvelles Titre"
+
+# word 142
+msgid "News Url"
+msgstr "nouvelles Url"
+
+# word 143
+msgid "New Contant"
+msgstr "Nouveau contenu"
+
+# word 144
+msgid "Select News Image"
+msgstr "Sélectionnez Nouvelles images"
+
+# word 145
+msgid "News Delete Successfully"
+msgstr "Nouvelles Mise à jour avec succès"
+
+# word 146
+msgid "News Add Successfully"
+msgstr "Nouvelles Ajouter succès"
+
+# word 147
+msgid "Try Again Network Problems"
+msgstr "Essayez Problèmes de réseau Again"
+
+# word 148
+msgid "Your News File Is Not Supported"
+msgstr "Votre Nouvelles fichier est non pris en charge"
+
+# word 149
+msgid "News Update Successfully"
+msgstr "Nouvelles Mise à jour avec succès"
+
+# word 150
+msgid "Uploaded File Not Supported"
+msgstr "Fichier téléchargé non pris en charge"
+
+# word 151
+msgid "Edit News"
+msgstr "Modifier Nouvelles"
+
+# word 152
+msgid "Store Finder Admin | Users Review"
+msgstr "Trouver un magasin admin | Appréciation des utilisateurs"
+
+# word 153
+msgid "User Review"
+msgstr "Avis d'utilisateur"
+
+# word 154
+msgid "User Review list"
+msgstr "Examiner la liste de l'utilisateur"
+
+# word 155
+msgid "Review Text"
+msgstr "Revue texte"
+
+# word 156
+msgid "Storename"
+msgstr "Nom de magasin"
+
+# word 157
+msgid "Store Finder Admin | Set Language"
+msgstr "Trouver un magasin admin | Définir la langue"
+
+# word 158
+msgid "Set Language"
+msgstr "Définir la langue"
+
+# word 159
+msgid "Language"
+msgstr "Langue"
+
+# word 161
+msgid "Select Language"
+msgstr "Choisir la langue"
+
+# word 162
+msgid "Select Your Language"
+msgstr "Choisissez votre langue"
+
+# word 163
+msgid "Change Language"
+msgstr "Changer de langue"
+
+# word 164
+msgid "Language Set Successfully"
+msgstr "Langue Réglage de succès"
+
+# word 165
+msgid "Please Try Agains"
+msgstr "Veuillez réessayer"
+
+# word 166
+msgid "Store Finder Admin | Stores"
+msgstr "Trouver un magasin admin | magasins"
+
+# word 167
+msgid "Stores Detail with list"
+msgstr "Stocke Détail avec la liste"
+
+# word 168
+msgid "Stores List"
+msgstr "Liste des magasins"
+
+# word 169
+msgid "No of Images"
+msgstr "Pas d'images"
+
+# word 170
+msgid "Ratting"
+msgstr "Ratting"
+
+# word 171
+msgid "Featured"
+msgstr "Sélection"
+
+# word 172
+msgid "Yes"
+msgstr "Oui"
+
+# word 173
+msgid "No"
+msgstr "Non"
+
+# word 174
+msgid "Delete Store"
+msgstr "supprimer magasin"
+
+# word 175
+msgid "Store Delete Successfuly"
+msgstr "Magasin supprimé avec succès"
+
+# word 176
+msgid "Store Finder Admin | Users Ratting"
+msgstr "Trouver un magasin admin | Note des utilisateurs"
+
+# word 177
+msgid "User Ratting"
+msgstr "Note de l'utilisateur"
+
+# word 178
+msgid "User Ratting list"
+msgstr "Utilisateur liste Note"
+
+# word 179
+msgid "Store Finder Admin | Web Service"
+msgstr "Trouver un magasin admin | Service Web"
+
+# word 180
+msgid "Web Services"
+msgstr "Services Web"
+
+# word 181
+msgid "Json Api"
+msgstr "Json Api"
+
+# word 182
+msgid "Web Services List"
+msgstr "Liste des services Web"
+
+# word 183
+msgid "Description"
+msgstr "Description"
+
+# word 185
+msgid "Json Url"
+msgstr "Json Url"
+
+# word 186
+msgid "Check"
+msgstr "Chèque"
+
+# word 187
+msgid "Now Check json"
+msgstr "Maintenant Vérifiez JSON"
