@@ -32,10 +32,18 @@ if(isset($_GET['maxatt'])){
 }
 if(isset($_GET['formatted_loc'])){
     $formatted_loc = $_GET['formatted_loc'];
+
 }
 if(isset($_GET['description'])){
     $description = $_GET['description'];
 }
+if(isset($_GET['lat'])){
+    $lat = $_GET['lat'];
+}
+if(isset($_GET['long'])){
+    $long = $_GET['long'];
+}
+
 
 
 
@@ -361,6 +369,13 @@ if(isset($_POST['addevent'])) {
             <p class="name" id="latlong">
                 <input value="<?php echo (isset($formatted_loc))?$formatted_loc:'';?>" id="searchTextField" type="text" size="50" placeholder="Search Location " class="feedback-input lngbox" name="formattedLocation" required>
             </p>
+<!--            <script>-->
+<!--                  var input = document.getElementById('searchTextField');-->
+<!--                  var autocomplete = new google.maps.places.Autocomplete(input, {-->
+<!--                    types: ["geocode"]-->
+<!--                });-->
+<!--                  -->
+<!--                </script>-->
 
             <p class="name">
                 <div  id="map_canvas" style="width:100%; height:250px"></div>
@@ -617,7 +632,6 @@ if(!isset($lat)){
                 }
             });
         });
-
         function moveMarker(placeName, latlng) {
             marker.setIcon(image);
             marker.setPosition(latlng);
@@ -625,6 +639,7 @@ if(!isset($lat)){
             //infowindow.open(map, marker);
         }
     });
+
 </script>
 <style>
     @import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
