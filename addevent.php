@@ -6,7 +6,7 @@ if(isset($_GET['uname'])){
     $userid = $_GET['uname'];
 }
 else{
-    $userid = 'asdasdasdasdasd';
+    $userid = 'NAN';
 }
 
 if(isset($_GET['event_name'])){
@@ -43,6 +43,13 @@ if(isset($_GET['lat'])){
 if(isset($_GET['long'])){
     $long = $_GET['long'];
 }
+if(isset($_GET['event_id'])){
+    $event_id = $_GET['event_id'];
+}
+else{
+    $event_id = 'NAN';
+
+}
 
 
 
@@ -56,8 +63,10 @@ if(isset($_POST['addevent'])) {
     $minmaxEr       = " ";
     $sname          = addslashes($_POST['sname']);
     $category       = $_POST['category'];
-    $lat            = $_POST['lat'];
-    $long           = $_POST['long'];
+    if(!isset($_GET['lat'])) {
+        $lat = $_POST['lat'];
+        $long = $_POST['long'];
+    }
     $description    = $_POST['desc'];
     $date           = stripcslashes($_POST['testget']);
     $from_time      = stripcslashes($_POST['fromTime']);
@@ -120,7 +129,8 @@ if(isset($_POST['addevent'])) {
             'formatted_location' => $formatted_loc,
             'description' => $description,
             'minatt' => $minatt,
-            'maxatt' => $maxatt
+            'maxatt' => $maxatt,
+            'event_id' =>$event_id
         );
         $options = array(
             'http' => array(
@@ -317,7 +327,6 @@ if(isset($_POST['addevent'])) {
 <div id="form-main" style="margin-top: -25px;">
     <div id="form-div">
         <h3 style="color: mediumseagreen" id="msg"></h3>
-       <!-- <h2 align="center" style="color: white;">Add Event Detail</h2>-->
         <form class="form" id="Form Image" method="post" enctype="multipart/form-data" style="margin-top: -25px;">
 
             <p class="name">
@@ -353,11 +362,11 @@ if(isset($_POST['addevent'])) {
                 <select id="category" name="category" class="feedback-input" required>
                     <option value="">Select Category</option>
 
-                    <option <?php if($category == 'Football'){echo("selected");}?> value="Football" style="background-image:url(css/icon/sports.svg);">Football</option>
-                    <option <?php if($category == 'Basketball'){echo("selected");}?> value="Basketball" style="background-image:url(css/icon/sports.svg);">Basketball</option>
-                    <option <?php if($category == 'Running'){echo("selected");}?> value="Running" style="background-image:url(css/icon/sports.svg);">Running</option>
-                    <option <?php if($category == 'Gym'){echo("selected");}?> value="Gym" style="background-image:url(css/icon/sports.svg);">Gym</option>
-                    <option <?php if($category == 'Tennis'){echo("selected");}?> value="Tennis" style="background-image:url(css/icon/sports.svg);">Tennis</option>
+                    <option <?php if($category == 'football'){echo("selected");}?> value="Football" style="background-image:url(css/icon/sports.svg);">Football</option>
+                    <option <?php if($category == 'basketball'){echo("selected");}?> value="Basketball" style="background-image:url(css/icon/sports.svg);">Basketball</option>
+                    <option <?php if($category == 'running'){echo("selected");}?> value="Running" style="background-image:url(css/icon/sports.svg);">Running</option>
+                    <option <?php if($category == 'gym'){echo("selected");}?> value="Gym" style="background-image:url(css/icon/sports.svg);">Gym</option>
+                    <option <?php if($category == 'tennis'){echo("selected");}?> value="Tennis" style="background-image:url(css/icon/sports.svg);">Tennis</option>
                     <?php
 
                     ?>
