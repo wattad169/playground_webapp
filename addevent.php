@@ -46,6 +46,9 @@ if(isset($_GET['long'])){
 if(isset($_GET['event_id'])){
     $event_id = $_GET['event_id'];
 }
+if(isset($_GET['is_public'])){
+    $is_public = $_GET['is_public'];
+}
 else{
     $event_id = 'NAN';
 
@@ -63,10 +66,9 @@ if(isset($_POST['addevent'])) {
     $minmaxEr       = " ";
     $sname          = addslashes($_POST['sname']);
     $category       = $_POST['category'];
-    if(!isset($_GET['lat'])) {
-        $lat = $_POST['lat'];
-        $long = $_POST['long'];
-    }
+    $is_public      = $_POST['isPublic'];
+    $lat = $_POST['lat'];
+    $long = $_POST['long'];
     $description    = $_POST['desc'];
     $date           = stripcslashes($_POST['testget']);
     $from_time      = stripcslashes($_POST['fromTime']);
@@ -130,7 +132,8 @@ if(isset($_POST['addevent'])) {
             'description' => $description,
             'minatt' => $minatt,
             'maxatt' => $maxatt,
-            'event_id' =>$event_id
+            'event_id' =>$event_id,
+            'is_public' =>$is_public
         );
         $options = array(
             'http' => array(
@@ -153,7 +156,9 @@ if(isset($_POST['addevent'])) {
 ?>
 <style>
     .error {color: #FF0000;}
+
 </style>
+
 <script type="text/javascript" src="lib/site.js"></script>
 <link rel="stylesheet" type="text/css" href="lib/site.css" />
 <link rel="stylesheet" href="//code.jquery.com/mobile/1.1.0-rc.1/jquery.mobile-1.1.0-rc.1.min.css" />
@@ -347,8 +352,18 @@ if(isset($_POST['addevent'])) {
                     <span class="error"><?php echo $timeEr;?></span>
                 </p>
 
+
             </div>
 
+            <p class="name">
+                <select id="isPublic" name="isPublic" class="feedback-input" required>
+                    <option <?php if($is_public == '1'){echo("selected");}?> value="1" selected>Public Event</option>
+                    <option <?php if($is_public == '0'){echo("selected");}?> value="0">Private Event</option>
+                </select>
+                <span style="font-size:xx-small">
+                    *People cannot join your event without your approval when it's private
+                </span>
+            </p>
             <p class="name">
                 <input value="<?php echo (isset($minatt))?$minatt:'';?>" name="minattend" type="number" class="feedback-input" placeholder="Minimum Attendance" id="name" required/>
                 <span class="error"><?php echo $minmaxEr;?></span>
@@ -359,7 +374,7 @@ if(isset($_POST['addevent'])) {
             </p>
 
             <p class="name">
-                <select id="category" name="category" class="feedback-input" required>
+                <select id="category"  name="category" class="feedback-input" required>
                     <option value="">Select Category</option>
 
                     <option <?php if($category == 'football'){echo("selected");}?> value="Football" style="background-image:url(css/icon/sports.svg);">Football</option>
@@ -378,13 +393,6 @@ if(isset($_POST['addevent'])) {
             <p class="name" id="latlong">
                 <input value="<?php echo (isset($formatted_loc))?$formatted_loc:'';?>" id="searchTextField" type="text" size="50" placeholder="Search Location " class="feedback-input lngbox" name="formattedLocation" required>
             </p>
-<!--            <script>-->
-<!--                  var input = document.getElementById('searchTextField');-->
-<!--                  var autocomplete = new google.maps.places.Autocomplete(input, {-->
-<!--                    types: ["geocode"]-->
-<!--                });-->
-<!--                  -->
-<!--                </script>-->
 
             <p class="name">
                 <div  id="map_canvas" style="width:100%; height:250px"></div>
@@ -395,11 +403,11 @@ if(isset($_POST['addevent'])) {
                 <div class="ease"></div>
             </div>
             <p class="name" id="latlong" style="visibility:collapse">
-                <input type="text" id="latbox" name="lat"  class="feedback-input MapLat" placeholder="Latitude"/>
+                <input type="text" value="<?php echo (isset($lat))?$lat:'';?>" id="latbox" name="lat"  class="feedback-input MapLat" placeholder="Latitude"/>
             </p>
             <p class="name" id="latlong" style="visibility:collapse">
 
-                <input type="text" id="lngbox" name="long" class="feedback-input MapLon" placeholder="Longitude"/>
+                <input type="text" value="<?php echo (isset($long))?$long:'';?>" id="lngbox" name="long" class="feedback-input MapLon" placeholder="Longitude"/>
             </p>
 
 
@@ -861,6 +869,12 @@ if(!isset($lat)){
 
     #category{
         background-image: url(css/icon/menu.svg);
+        background-size: 30px 30px;
+        background-position: 11px 8px;
+        background-repeat: no-repeat;
+    }
+    #isPublic{
+        background-image: url(css/icon/ic_public_black_24px.svg);
         background-size: 30px 30px;
         background-position: 11px 8px;
         background-repeat: no-repeat;
