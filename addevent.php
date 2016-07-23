@@ -156,7 +156,6 @@ if(isset($_POST['addevent'])) {
 ?>
 <style>
     .error {color: #FF0000;}
-
 </style>
 
 <script type="text/javascript" src="lib/site.js"></script>
@@ -351,6 +350,13 @@ if(isset($_POST['addevent'])) {
                     <input value="<?php echo (isset($end_time))?$end_time:'';?>" id="ptime2" class="mobiscroll" type="text"  placeholder="End time" name="endTime" required style="width: 80px;"/>
                     <span class="error"><?php echo $timeEr;?></span>
                 </p>
+                <span style="font-size:xx-small">
+                    <br />*Event duration must be at least 30 minutes<br />
+                </span>
+                <span style="font-size:xx-small">
+                    *Event must start at least after 1 hour from now
+                </span>
+
 
 
             </div>
